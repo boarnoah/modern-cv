@@ -275,7 +275,7 @@
           #if language == "zh" or language == "ja" [
             #text(accent-color, weight: "thin")[#author.firstname]#text(weight: "bold")[#author.lastname]
           ] else [
-            #text(accent-color, weight: "thin")[#author.firstname]
+            #text(weight: "bold")[#author.firstname]
             #text(weight: "bold")[#author.lastname]
           ]
         ]
