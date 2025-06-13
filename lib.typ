@@ -354,7 +354,7 @@
             #separator
             #linkedin-icon
             #box[
-              #link("https://www.linkedin.com/in/" + author.linkedin)[#author.firstname #author.lastname]
+              #link("https://www.linkedin.com/in/" + author.linkedin)[#author.linkedin]
             ]
           ]
           #if ("twitter" in author) [
